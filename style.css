@@ -1,0 +1,108 @@
+body {
+    background-color: #f5c7d0;
+    font-family: "Nunito", sans-serif;
+}
+
+.block-of-text h2 {
+    color: red;
+    font-weight: 300;
+    font-size: 2.5rem;
+}
+
+.block-of-text p {
+    font-weight: 500;
+    color: #ff7096;
+    line-height: 1.7em;
+}
+
+.navbar {
+    background-color: #ff7096;
+}
+
+.navbar-brand {
+    color: #ffccd5;
+}
+
+.nav-brand-background {
+    background-color: #e2295a;
+    color: #f3eeed;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: .6rem;
+}
+
+#social-media>.nav-item svg {
+    height: 1.5rem;
+    width: 1.5em;
+    margin-left: .6rem;
+    color: rgb(117, 120, 128);
+}
+
+.navbar-brand:hover {
+    color: #ffccd5;
+}
+
+.navbar-brand,
+#navItems {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+#mainNavbar .nav-link {
+    color: #f3eeed;
+    display: inline;
+}
+
+#mainNavbar .nav-link:hover {
+    text-decoration: underline #f3eeed .1rem;
+}
+
+#firstHeader span {
+    color: red;
+}
+
+#firstHeader>h1 {
+    font-weight: 100;
+    font-size: 2.7rem;
+}
+
+.fa-candy-cane {
+    color: white;
+}
+
+#search-button {
+    background-color: #ffb8d1;
+}
+
+.input-group>input {
+    max-width: 170px;
+}
+
+footer {
+    background-color: #c3ebf8;
+}
+
+footer>div>ul {
+    border-bottom: gray 1.5px solid;
+}
+
+@media (max-width: 992px) {
+    .block-of-text {
+        margin: 2em 0 2em 0;
+    }
+
+    .block-of-text p {
+        margin: .5em 0 0 0;
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+    .block-of-text h2 {
+        font-size: 2rem;
+    }
+
+}
