@@ -3,18 +3,7 @@ body {
     font-family: "Nunito", sans-serif;
 }
 
-.block-of-text h2 {
-    color: red;
-    font-weight: 300;
-    font-size: 2.5rem;
-}
-
-.block-of-text p {
-    font-weight: 500;
-    color: #ff7096;
-    line-height: 1.7em;
-}
-
+/* Navbar */
 .navbar {
     background-color: #ff7096;
 }
@@ -33,13 +22,6 @@ body {
     justify-content: center;
     align-items: center;
     margin-right: .6rem;
-}
-
-#social-media>.nav-item svg {
-    height: 1.5rem;
-    width: 1.5em;
-    margin-left: .6rem;
-    color: rgb(117, 120, 128);
 }
 
 .navbar-brand:hover {
@@ -61,19 +43,6 @@ body {
     text-decoration: underline #f3eeed .1rem;
 }
 
-#firstHeader span {
-    color: red;
-}
-
-#firstHeader>h1 {
-    font-weight: 100;
-    font-size: 2.7rem;
-}
-
-.fa-candy-cane {
-    color: white;
-}
-
 #search-button {
     background-color: #ffb8d1;
 }
@@ -82,12 +51,31 @@ body {
     max-width: 170px;
 }
 
-footer {
-    background-color: #c3ebf8;
+/* First Section Header */
+#firstHeader span {
+    color: red;
 }
 
-footer>div>ul {
-    border-bottom: gray 1.5px solid;
+#firstHeader>h1 {
+    font-weight: 300;
+    font-size: 2.7rem;
+}
+
+/* Section Text */
+.fa-candy-cane {
+    color: white;
+}
+
+.block-of-text h2 {
+    color: red;
+    font-weight: 300;
+    font-size: 2.5rem;
+}
+
+.block-of-text p {
+    font-weight: 500;
+    color: #ff7096;
+    line-height: 1.7em;
 }
 
 @media (max-width: 992px) {
@@ -105,4 +93,20 @@ footer>div>ul {
         font-size: 2rem;
     }
 
+}
+
+/* Footer */
+footer {
+    background-color: #c3ebf8;
+}
+
+footer>div>ul {
+    border-bottom: gray 1.5px solid;
+}
+
+#social-media>.nav-item svg {
+    height: 1.5rem;
+    width: 1.5em;
+    margin-left: .6rem;
+    color: rgb(117, 120, 128);
 }
